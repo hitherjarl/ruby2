@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Note: You can also use #!/bin/sh or #!/bin/zsh as the first line.
+
+# Use .nitrousboxrc to run commands (start daemons, etc) when your box is
+# started/restarted.
+# The results of running this script will be appended to
+# /home/action/.nitrousboxrc.log .
+
+# To use this file, run the following commands in your terminal:
+#   cp ~/.nitrousboxrc.sample ~/.nitrousboxrc
+#   chmod +x ~/.nitrousboxrc
+
+# The line below is recommended so that any errors will stop the script.
+set -e
+
+# Add your commands here...

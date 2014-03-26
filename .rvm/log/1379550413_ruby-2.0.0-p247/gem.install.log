@@ -1,0 +1,5 @@
+[2013-09-19 00:27:16] gem
+current path: /home/action
+command(7): env GEM_HOME=/home/action/.rvm/gems/ruby-2.0.0-p247@global GEM_PATH=/home/action/.rvm/gems/ruby-2.0.0-p247@global gem install --remote rvm
+Successfully installed rvm-1.11.3.8
+1 gem installed

@@ -1,0 +1,32 @@
+[2013-09-19 00:26:53] __rvm_with
+__rvm_with () 
+{ 
+    ( __rvm_use "$1";
+    shift;
+    "$@" || return $? )
+}
+current path: /home/action
+command(4): __rvm_with ruby-2.0.0-p247 /home/action/.rvm/scripts/gemsets initial
+Importing initial gemsets for ruby-2.0.0-p247.
+paths: /home/action/.rvm/gemsets/ruby/2.0.0/p247 /home/action/.rvm/gemsets/ruby/2.0.0 /home/action/.rvm/gemsets/ruby /home/action/.rvm/gemsets
+
+Installing gems listed in /home/action/.rvm/gemsets/default.gems file...
+
+
+Processing of /home/action/.rvm/gemsets/default.gems is complete.
+
+
+Installing gems listed in /home/action/.rvm/gemsets/global.gems file...
+
+installing rubygems-bundler ......
+rubygems-bundler  installed.
+installing bundler .....
+bundler  installed.
+installing rake .....
+rake  installed.
+installing rvm .....
+rvm  installed.
+
+Processing of /home/action/.rvm/gemsets/global.gems is complete.
+
+Installation of gems for ruby-2.0.0-p247 is complete.
